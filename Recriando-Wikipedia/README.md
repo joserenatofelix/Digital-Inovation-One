@@ -7,4 +7,4 @@ Este desafio consiste em treinar estrutura de site, aplicando conhecimentos adiq
 
 ## Resultado
 
-![resultado do exercício](/assets/images/resultado.png)
+![resultado do exercício](assets/images/resultado.png)
