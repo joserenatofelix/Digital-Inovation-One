@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+* {
+    font-family: 'Roboto', 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+header #top-container {
+    width: 100%;
+    margin: auto;
+    display: contents;
+    align-self: center;
+    padding: 10px 20px;
+}
+
+header #top-container #right-icons img {
+    width: 150px;
+}
+header .search-bar input {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 30px;
+    border: 1px solid;
+    border-color: #918f8f;
+}
+header .search-bar button {
+    margin-left: 0;
+    padding: 0;
+    width: 40px;
+    height: 32px;
+    border: 1px solid;
+    border-color: #918f8f;
+}
+
+#main-container {
+    display: flex;
+    align-items: flex-start;  
+    margin: 28px 25px 10px 75px  ;
+}
+
+#main-container h3 {
+    margin: 20px 0;
+}
+
+#channel-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#channel-logo {
+    display: flex;
+    justify-content: center;
+}
+
+#channel-logo span {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 8px;
+    text-align: start;
+}
+
+#channel-logo span .subscribers {
+    font-size: small;
+    font-weight: 100;
+}
+
+#channel-info .subscribe-btn {
+    border-radius: 2px;
+    width: 9rem;
+    height: 2.1rem;
+}
+
+#channel-info span img {
+    display: flex;
+    justify-content: space-around;   
+}
+
+#video-main #views {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#video-main #views .transmited {
+    width: 25rem;
+    margin-bottom: 10px;
+    
+}
+
+#video-main #views .description {
+    width: 30rem;
+}
+
+aside menu li{
+    display: flex;
+    list-style: none;
+    margin: 0 0 1rem 1rem;
+}
+
+aside menu li p {
+    font-weight: 400;
+    font-size: 12px;
+    margin: 2px;
+}
+
+aside menu li .video-description{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+aside menu li .video-user {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
