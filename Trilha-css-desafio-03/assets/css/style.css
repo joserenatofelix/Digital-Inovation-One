@@ -1,0 +1,141 @@
+.containertopo {
+  /* Menu */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24px;
+  gap: 32px;
+  position: absolute;
+  width: 1440px;
+  height: 56px;
+  left: 0px;
+  top: 0px;   
+}
+
+.menu{
+/* menu */
+background-image: url(../images/menu.png);
+position: absolute;
+width: 24px;
+height: 24px;
+left: 24px;
+top: 16px;
+}
+
+.youtube{
+/* youtube logo */
+background-image: url(../images/youtube.png);
+position: absolute;
+width: 90px;
+height: 20px;
+left: 80px;
+top: 18px;
+
+}
+
+.menuvector{
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 75%;
+bottom: 25%;
+border: 2px solid #000000;
+}
+
+.box{    
+display: flex;
+flex-direction: row-reverse;
+}
+
+.video{
+background-image: url(../images/video.png);
+width: 24px;
+height: 24px;
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 10px;
+}
+  
+.bell{
+background-image: url(../images/bell.png);   
+width: 24px;
+height: 24px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 10px;
+}
+
+.foto{
+ background-image: url(../images/foto.png); 
+ margin: 10px;
+ width: 24px;
+ height: 24px;
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+}
+
+.item1{
+  /* Rectangle 1 */
+box-sizing: border-box;
+position: absolute;
+width: 348px;
+height: 40px;
+left: 526px;
+top: 8px;
+background: #FFFFFF;
+border: 1px solid #CCCCCC;    
+}
+
+.item2{
+/* Rectangle 2 */
+box-sizing: border-box;
+position: absolute;
+width: 57px;
+height: 40px;
+left: 873px;
+top: 8px;
+background: #F8F8F8;
+border: 1px solid #CCCCCC;
+
+}
+.search{
+background-image: url(../images/search.png);
+position: absolute;
+width: 24px;
+height: 24px;
+left: 887px;
+top: 16px;
+}
+
+.sidebar{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 22px;
+
+position: absolute;
+width: 218px;
+height: 968px;
+left: 0px;
+top: 56px;
+background: rgb(255, 255, 255);
+}
+
+.grid{
+display: grid;
+grid-template: repeat(4, 150px) / repeat(3, 370px);
+position: fixed;
+align-items: center;
+left: 250px;
+top: 100px;
+
+}
+
+
+
+
