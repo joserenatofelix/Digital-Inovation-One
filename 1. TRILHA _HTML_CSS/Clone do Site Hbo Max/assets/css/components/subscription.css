@@ -1,0 +1,108 @@
+.subscription {
+  background: url("../../images/background-movies-series.png");
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  padding: 2.4rem;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.container .title {
+  font-size: 3.2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.card__list {
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  perspective: 2000px;
+  perspective-origin: top;
+}
+
+.card {
+  background: var(--card-bg-color);
+  padding: 40px;
+  border-radius: 8px;
+  display: flex;
+  max-width: 60rem;
+  min-height: 600px;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 1s ease-in-out;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+.card__header h3 {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.card__header p {
+  font-size: 2.4rem;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+.card__items {
+  flex: 1;
+}
+
+.card__items li::marker {
+  content: "+";
+  font-size: 3.2rem;
+}
+.card__items li {
+  padding-left: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.card__list:has(.card-1:hover) .card-2 {
+  transform: rotateY(-45deg);
+}
+
+.card__list:has(.card-2:hover) .card-1 {
+  transform: rotateY(45deg);
+}
+
+@media screen and (min-width: 481px) {
+  .card {
+    padding: 4rem 6rem;
+  }
+
+  .card__header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card__header p {
+    font-size: 3.2rem;
+  }
+  .card__items li {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1141px) {
+  .card__list {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .card__list {
+    gap: 8rem;
+  }
+}
