@@ -7,3 +7,5 @@
 <p>O projeto é um <b>clone do site </b><a href="https://discord.com/">Discord</a>, com o intuito de reproduzir a interface, com algumas modificações, aplicando os temas abordados ao longo das aulas de CSS da plataforma da <a href="https://dio.me">Digital Innovation One</a>..-----> <a href='https://clonedodiscord.netlify.app'><button>Confira o projeto clicando aqui</button>
 
 <p>O projeto é um <b>clone do site </b><a href="https://www.youtube.com/">Youtube</a>, com o intuito de reproduzir a interface, com algumas modificações, aplicando os temas abordados ao longo das aulas de CSS da plataforma da <a href="https://dio.me">Digital Innovation One</a>..-----> <a href='https://clonedoyoutube.netlify.app'><button>Confira o projeto clicando aqui</button>
+
+<p>O projeto é um <b>clone do site </b><a href="https://pt.wikipedia.org/wiki/Game_of_Thrones">Wikipedia</a>, com o intuito de reproduzir a interface, com algumas modificações, aplicando os temas abordados ao longo das aulas de CSS da plataforma da <a href="https://dio.me">Digital Innovation One</a>..-----> <a href='https://clonewikipedia.netlify.app/'><button>Confira o projeto clicando aqui</button>
