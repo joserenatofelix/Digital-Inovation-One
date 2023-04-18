@@ -1,4 +1,10 @@
-# DESAFIO--DIO-Reproduzindo-a-Listagem-do-YouTube-com-Grid-Layout-no-CSS
+# Módulo 2 - Trilha HTML
 
-construir a Página de Listagem de vídeos no YouTube com CSS colocando em prática todos os conceitos aprendidos, principalmente sobre Grid Layout.
-Ministrado pela Michele Ambrosio https://www.linkedin.com/in/michele-ambrosio-a4899661/
+**Título:** Clonando página do Youtube, com um layout melhor :)
+
+## Objetivo
+Este desafio consiste em treinar estrutura de site, aplicando conhecimentos adiquiridos sobre semântica e acessibilidade.
+
+## Resultado
+
+![resultado do exercício](assets/images/resultado.png)

@@ -1,5 +1,10 @@
-# Desafio-Discord-Responsivo-CSS
- Construindo um Layout Responsivo Para o Site do Discord Com CSS
-  Desafio realizado pela Dio https://www.dio.me/
-   Ministrado pela https://www.linkedin.com/in/michele-ambrosio-a4899661/
-    https://github.com/micheleambrosio
+# Módulo 4 - Trilha HTML
+
+**Título:** Clonando página do Discord, com um layout melhor :)
+
+## Objetivo
+Este desafio consiste em treinar estrutura de site, aplicando conhecimentos adiquiridos sobre semântica e acessibilidade.
+
+## Resultado
+
+![resultado do exercício](image/resultado.png)
